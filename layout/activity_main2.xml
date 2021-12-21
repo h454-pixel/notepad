@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+
+    <TextView
+        android:id="@+id/textview_edit"
+        android:text="save"
+        android:gravity="right"
+        android:textSize="30sp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/purple_500"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/text_input"
+        android:layout_width="match_parent"
+        android:layout_below="@id/textview_edit"
+        android:layout_height="match_parent">
+
+
+
+
+
+
+        <EditText
+            android:id="@+id/messageEditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:clickable="true"
+            android:gravity="left|top"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:hint="Compose your message" />
+
+
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+</RelativeLayout>
